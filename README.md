@@ -1,2 +1,2 @@
 # Wayblazer Client Documentaion
-+ [Tracking Widget](tracking.md)
++ [Tracking Widget](https://github.com/wayblazer/wayblazer.github.io/blob/master/track.md)
