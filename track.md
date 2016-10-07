@@ -12,7 +12,7 @@ The tracker widget currently supports the following use cases:
 Put the following code and pages that you want to track:
 ### HTML Snippet
 ```html
-<script src="https://cdn.wayblazer.com/widgets/v1.0/tracker/tracker.js"
+<script src="//cdn.wayblazer.com/widgets/v1.0/tracker.js"
  data-wb-id="tracker"
  data-apiKey="[API_KEY]"
  data-hotelProvider="[HOTEL_PROVIDER]"
@@ -35,7 +35,7 @@ Put the following code and pages that you want to track:
 ## Example Snippets
 ### Search Page Results
 ```html
-<script src="https://cdn.wayblazer.com/widgets/v1.0/tracker/tracker.js"
+<script src="//cdn.wayblazer.com/widgets/v1.0/tracker.js"
  data-wb-id="tracker"
  data-apiKey="XXX123XXX"
  data-hotelProvider="some_hotel_prodiver"
@@ -46,7 +46,7 @@ Put the following code and pages that you want to track:
 
 ### Detail Page
 ```html
-<script src="https://cdn.wayblazer.com/widgets/v1.0/tracker/tracker.js"
+<script src="//cdn.wayblazer.com/widgets/v1.0/tracker.js"
  data-wb-id="tracker"
  data-apiKey="XXX123XXX"
  data-hotelProvider="some_hotel_prodiver"
@@ -57,7 +57,7 @@ Put the following code and pages that you want to track:
 
 ### Cart Page
 ```html
-<script src="https://cdn.wayblazer.com/widgets/v1.0/tracker/tracker.js"
+<script src="//cdn.wayblazer.com/widgets/v1.0/tracker.js"
  data-wb-id="tracker"
  data-apiKey="XXX123XXX"
  data-hotelProvider="some_hotel_prodiver"
@@ -68,7 +68,7 @@ Put the following code and pages that you want to track:
 
 ### Conversion Page
 ```html
-<script src="https://cdn.wayblazer.com/widgets/v1.0/tracker/tracker.js"
+<script src="//cdn.wayblazer.com/widgets/v1.0/tracker.js"
  data-wb-id="tracker"
  data-apiKey="XXX123XXX"
  data-hotelProvider="some_hotel_prodiver"
