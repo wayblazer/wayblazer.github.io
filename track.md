@@ -49,7 +49,7 @@ Put the following code and pages that you want to track:
 <script src="//cdn.wayblazer.com/widgets/v1.0/tracker.js"
  data-wb-id="tracker"
  data-apiKey="XXX123XXX"
- data-hotelProvider="some_hotel_prodiver"
+ data-hotelProvider="some_hotel_provider"
  data-info="hotelId=some_hotel_id&campaignId=123abc"
  data-type="detail"
  data-name="property detail page"></script>
