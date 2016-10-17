@@ -38,7 +38,7 @@ Put the following code and pages that you want to track:
 <script src="//cdn.wayblazer.com/widgets/v1.0/tracker.js"
  data-wb-id="tracker"
  data-apiKey="XXX123XXX"
- data-hotelProvider="some_hotel_prodiver"
+ data-hotelProvider="some_hotel_provider"
  data-info="search=cool+places+near+water&campaignId=123abc"
  data-type="search"
  data-name="widget list view"></script>
@@ -60,7 +60,7 @@ Put the following code and pages that you want to track:
 <script src="//cdn.wayblazer.com/widgets/v1.0/tracker.js"
  data-wb-id="tracker"
  data-apiKey="XXX123XXX"
- data-hotelProvider="some_hotel_prodiver"
+ data-hotelProvider="some_hotel_provider"
  data-info="hotelIds=some_hotel_id,some_other_hotel_id,another_hotel_id&campaignId=123abc"
  data-type="cart"
  data-name="check out page"></script>
@@ -71,7 +71,7 @@ Put the following code and pages that you want to track:
 <script src="//cdn.wayblazer.com/widgets/v1.0/tracker.js"
  data-wb-id="tracker"
  data-apiKey="XXX123XXX"
- data-hotelProvider="some_hotel_prodiver"
+ data-hotelProvider="some_hotel_provider"
  data-info="hotelIds=some_hotel_id,some_other_hotel_id,another_hotel_id&campaignId=123abc"
  data-type="complete"
  data-name="thank you page"></script>
