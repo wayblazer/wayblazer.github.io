@@ -24,7 +24,7 @@ Put the following code and pages that you want to track:
 + __data-wb-id:__ must always equal "tracker"
 + __data-apiKey:__ your API key used in other widgets, like the image widget.
 + __data-hotelProvider:__ the provider for content used in other widgets, like the image widget.
-+ __data-info:__ data about the request in __URL format__ (ex: key=value&key2=another+value). It can be anything on the list view (maybe search terms, etc.). **NOTE:** on the *detail* page you need include the content provider’s hotel id, so clicks from the search view to details can be tracked (ex: ```data-info="hotelId=some_hotel_id"```) Also, on the *cart* and *complete* pages include hotels in a comma delimited list that are in the cart or have been converted  (ex: ```data-info="hotelIds=some_hotel_id,other_hotel_id"```)
++ __data-info:__ data about the request in __URL format__ (ex: key=value&key2=another+value). It can be anything on the list view (maybe search terms, etc.). **NOTE:** on the *detail* page you need to include the content provider’s hotel id, so clicks from the search view to details can be tracked (ex: ```data-info="hotelId=some_hotel_id"```) Also, on the *cart* and *complete* pages include hotels in a comma delimited list that are in the cart or have been converted  (ex: ```data-info="hotelIds=some_hotel_id,other_hotel_id"```)
 + __data-type:__ the basic event on this page, this can include: 
 	+ __search__: the list view / search result
 	+ __detail__: the detail view of a hotel
