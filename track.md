@@ -60,8 +60,8 @@ Put the following code and pages that you want to track:
 	+ __detail__: the detail view of a hotel
 	+ __cart__: shopping cart view
 	+ __complete__: thank-you page / conversion / purchase complete
-+ __name:__ descriptive info about the page. It is useful if the cart has multiple steps. EX: (ex: ```data-name="cart billing"``` and ```data-name="cart shipping info"```)
-+ other data about the request in can be included in the parameters in the given format. It can be anything on the list view (maybe search terms, etc.). **NOTE:** on the *detail* page you need to include the content provider’s hotel id, so clicks from the search view to details can be tracked (ex: ```data-info="hotelId=some_hotel_id"```) Also, on the *cart* and *complete* pages include hotels in a comma delimited list that are in the cart or have been converted  (ex: ```data-info="hotelIds=some_hotel_id,other_hotel_id"```)
++ __name:__ descriptive info about the page. It is useful if the cart has multiple steps. EX: (ex: ```name="cart billing"``` and ```name="cart shipping info"```)
++ other data about the request can be included in the parameters in the given format. It can be anything on the list view (maybe search terms, etc.). **NOTE:** on the *detail* page you need to include the content provider’s hotel id, so clicks from the search view to details can be tracked (ex: ```hotelId=some_hotel_id```) Also, on the *cart* and *complete* pages include hotels in a comma delimited list that are in the cart or have been converted  (ex: ```hotelIds=some_hotel_id,other_hotel_id```)
 
 ## V1 Tracker Implementation
 
