@@ -63,6 +63,18 @@ Put the following code and pages that you want to track:
 + __name:__ descriptive info about the page. It is useful if the cart has multiple steps. EX: (ex: ```name="cart billing"``` and ```name="cart shipping info"```)
 + other data about the request can be included in the parameters in the given format. It can be anything on the list view (maybe search terms, etc.). **NOTE:** on the *detail* page you need to include the content provider’s hotel id, so clicks from the search view to details can be tracked (ex: ```hotelId=some_hotel_id```) Also, on the *cart* and *complete* pages include hotels in a comma delimited list that are in the cart or have been converted  (ex: ```hotelIds=some_hotel_id,other_hotel_id```)
 
+# Client-Side API
+All the above snippets need to exist on the related pages. If you are not using the canned image widget and are calling the client-side api to get images, include the following code in the successful callback of the client-side api call:
+```javascript
+// if tracker is on the page, invoke its response handler
+if (window.wayblazer.tracker && window.wayblazer.tracker.response && typeof
+window.wayblazer.tracker.response === 'function') {
+ window.wayblazer.tracker.response(res);
+}
+// end tracker
+```
+> __NOTE__: the *res* variable should be the raw response you get back from our client api.
+
 ## V1 Tracker Implementation
 
 Put the following code and pages that you want to track:
